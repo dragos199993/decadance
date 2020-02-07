@@ -99,7 +99,7 @@ li {
 
 .text-wrapper {
     text-align: center;
-    padding: 50px 20px;
+    padding: 40px 10px;
     border-radius: 20px;
     color: #fff;
     font-size: 18px;
@@ -115,4 +115,13 @@ li {
 .text-wrapper a {
     color: #fff;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .text-wrapper {
+        padding: 20px 10px;
+        font-size: 16px;
+        width: 90vw;
+        transition: background-color .4s ease-in-out;
+    }
 }
